@@ -1,26 +1,31 @@
 
 ```js
 class Steed {
-  get contact() {
-        const email = "steed.monteiro@gmail.com"
-        return { email };
+  constructor() {
+    this.age = 36;
+    this.from = "Paris";
+    this.speaking = ["French", "English", "Spanish", "Portuguese"];
   }
 
-  get life() {
-    const age = 36;
-    const from = 'Paris';
-    const speaking = [ 'French', 'English', 'Spanish', 'Portuguese' ];
-    return { age, from, speaking };
+  contact() {
+    const email = "steed.monteiro@gmail.com";
+    return { email };
   }
 
-  get code() {
+  code() {
     const languages = {
-      expert: [ 'typescript', 'react', 'react-native' ],
-      intermediate: ['python', 'swift', 'java' ]
+      expert: ["typescript", "react", "react-native"],
+      intermediate: ["python", "swift", "java"],
     };
-    const specialities = [ 'fullstack', 'ai', 'mobile','nestjs', 'nginx', 'kubernetes' ];
-    const config = [ 'mac', 'vscode' ];
-    };
+    const specialities = [
+      "fullstack",
+      "ai",
+      "mobile",
+      "nestjs",
+      "nginx",
+      "kubernetes",
+    ];
+    const config = ["mac", "vscode"];
     return { languages, specialities, config };
   }
 }
