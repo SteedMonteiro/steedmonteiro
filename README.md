@@ -13,7 +13,7 @@ class Steed {
     return { age, from, speaking,  };
   }
 
-  get coding() {
+  get code() {
     const languages = {
       expert: ['typescript','react','react-native'],
       intermediate: ['python', 'swift'],
