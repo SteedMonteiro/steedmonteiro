@@ -1,16 +1,28 @@
-## Hi there 👋
 
-<!--
-**SteedMonteiro/steedmonteiro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```js
+class Steed {
+  get contact() {
+        const email = "steed.monteiro@gmail.com"
+        return { email }
+  }
 
-Here are some ideas to get you started:
+  get life() {
+    const age = 36;
+    const from = 'Paris';
+    const speaking = ['French', 'English', 'Spanish', 'Portuguese'];
+    return { age, from, speaking,  };
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  get coding() {
+    const languages = {
+      expert: ['typescript','react','react-native'],
+      intermediate: ['python', 'swift'],
+      learning: ['c', 'c++', 'c#'],
+    };
+    const specialities = [ 'fullstack', 'ai', 'mobile','nestjs', 'nginx', 'kubernetes' ];
+    const config = ['mac', 'vscode'];
+    };
+    return { languages, specialities, config };
+  }
+}
+```
