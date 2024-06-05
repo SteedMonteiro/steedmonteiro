@@ -10,7 +10,7 @@ class Steed {
     const age = 36;
     const from = 'Paris';
     const speaking = ['French', 'English', 'Spanish', 'Portuguese'];
-    return { age, from, speaking,  };
+    return { age, from, speaking };
   }
 
   get code() {
